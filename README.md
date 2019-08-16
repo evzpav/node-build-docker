@@ -25,7 +25,7 @@ make coverage
 ## Run locally:
 ```bash
 # Download dependencies
-make dependencies
+make install
 
 # Run server locally
 make run

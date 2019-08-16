@@ -10,7 +10,7 @@ MONGO_NAME    = mongodb_$(NAME)_$(BUILD)
 NETWORK_NAME  = network_$(NAME)_$(BUILD)
 MONGO_URL = mongodb://localhost:27018/${MONGO_NAME}
 
-dependencies: ## install dependencies
+install: ## install dependencies locally
 	npm install
 
 run-target: ## run target
