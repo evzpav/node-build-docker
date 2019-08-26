@@ -30,3 +30,24 @@ make install
 # Run server locally
 make run
 ```
+
+## REST API Documentation
+
+All available REST API documentation exposed by the project was documented using the [OpenAPI](https://www.openapis.org/) standard.
+
+To view this documentation locally use the following command:
+```bash
+make run-swagger
+```
+
+## Generate diagrams:
+
+In order to facilitate the documentation process, a command is available to generate `.png` images from `.puml` files.
+
+```bash
+make create-diagrams 
+```
+
+Files are generated and available inside `docs/diagrams`.
+
+_Diagrams are defined using a simple and intuitive language [PlantUML](http://plantuml.com/)._
